@@ -1,0 +1,97 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+#game_area{
+    display: inline-block;border:0.4px solid black;width: 800px;height: 400px;background-image:url('squarev.png');
+    position: relative;margin-top: 50px;
+
+}
+#src_area{
+    border-left: 0.5px solid black ;
+    border-bottom: 0.9px solid black ;
+    position: absolute;
+
+}
+#desc_area{
+    border-right: 0.9px solid black ;
+    border-top: 0.5px solid black ;
+    position: absolute;
+
+}
+#negyzet{
+    width: 20px;
+    position: relative;
+
+}
+.enemy{
+    width: 20px;
+    position: absolute;
+}
+.enemy_d{
+    width: 20px;
+    position: absolute;
+}
+#kincs{
+    width: 20px;
+    position: absolute;
+
+}
+.enemy_tw{
+    width: 20px;
+    position: absolute;
+
+}
+#score_div{
+    top :0;
+    color: darkblue;
+    position: absolute;
+    font-size: 25px;
+    padding-top: 2px;
+}
+#elet_div{
+    top :30px;
+    color: darkblue;
+    position: absolute;
+    font-size: 25px;
+    padding-top: 2px;
+}
+#list {
+    left: 0;
+    font-size: 18px;
+    position: relative;
+    text-align: center;
+}
+#top_list {
+    width: 300px;
+    height: 500px;
+    margin-left: 30px;
+    border-left: 3px solid black;
+    display: inline-block;
+    position: absolute;
+    background-color: dodgerblue;
+}
+.game_over {
+    border:0.4px solid black;width: 800px;height: 400px;font-size: 70px;background:#ff0000;position: relative ;
+    margin-left: auto;margin-right: auto;text-align: center;padding-top: 200px;
+}
+.game_area_one{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px;
+    background-color: dodgerblue;
+}
+.game_area_two{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    color: whitesmoke;
+    padding: 10px;
+    margin-top:20px;
+    background-color: dodgerblue;
+}
+.irany{
+    margin-top:20px;
+    display: block;
+}

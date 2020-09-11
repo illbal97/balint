@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World's hardest game</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="game.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/hardestgame.css"/>
+</head>
+<body class=".body">
+<button  class ="game_area_one" onClick="window.location.reload()">Első pályán </button>
+<button  class ="game_area_two" onclick="init_enemy_balls_tw()">Második pálya</button>
+<a  class="link" href="https://www.youtube.com/watch?v=DM2cAw-ECuo">Funeral zene forrás</a>
+<span class="irany">Az írányítás a nyílakkal történik és ha egy kincset feltvetél az első pályán akkor nem tudsz a másodikra lépni, csak akkor tudsz pályát lépni, ha nem vetél még fel kincset . Sok szerencsét!</span>
+    <div id = "game_area"></div>
+
+    <div id="top_list">
+        <h3 style="text-align: center; padding-bottom: 5px">10 toplista (kincsek)</h3>
+        <p id="list"></p>
+    </div>
+    <audio  style="float:right; display: none"   id="audio-basic"  controls loop>
+        <source src="zene/8Bit.mp3" type="audio/mpeg">
+    </audio>
+    <audio  style="float: right; display: none" id="audio-game_over" controls loop>
+        <source src="zene/DancingFuneral.mp3" type="audio/mpeg">
+
+    </audio>
+    <audio  style="float: right; display: none" id="audio-game_kincs" controls>
+        <source src="zene/kincs.mp3" type="audio/mpeg">
+    </audio>
+    <audio  style="float: right; display: none" id="audio-game_punch" controls>
+        <source src="zene/punchball.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
